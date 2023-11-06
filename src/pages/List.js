@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 
 export default function () {
     const navigate = useNavigate();
+
+    // 채팅방 목록
     const roomList = [
         {
             id: 1,
